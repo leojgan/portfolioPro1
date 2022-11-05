@@ -1,3 +1,37 @@
-header {
+.navbar {
     background-color: black;
+}
+
+#heroImage {
+    background-image: url(/img/ghost-xxl.png);
+    background-color: darkslategray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem 1rem;
+}
+
+#storeLinks {
+    background-image: linear-gradient(225deg, rgba(45, 54, 83, .7), rgba(51, 51, 77, .1)), url(/img/HexPattern.png);
+    max-height: 400px;
+}
+
+#storeLinks img {
+    max-height: 200px;
+    max-width: 100%;
+}
+
+h1 {
+    color:azure;
+    text-align: center;
+    padding: 1rem;
+}
+
+.carousel {
+    max-width: 720px;
+    margin: auto;
+}
+
+.carousel-indicators li {
+    filter: invert(100%);
 }
