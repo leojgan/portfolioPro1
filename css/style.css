@@ -8,7 +8,7 @@ body {
 
 #heroImage {
     background-image: url(/img/ghost-xxl.png);
-    background-color: darkslategray;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,12 +28,12 @@ body {
     max-width: 100%;
 }
 
-#storeHeader {
+h1 {
     font-family: 'Bungee', 'Courier New', Courier, monospace;
     color:azure;
     text-align: center;
     padding: 1rem;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 3px 3px 4px black;
 }
 
 .dropShadow {
