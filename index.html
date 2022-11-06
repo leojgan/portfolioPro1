@@ -49,16 +49,16 @@
 
     <!-- Store Links -->
     <div id="storeLinks" class="container-fluid hex-bg" style="padding-bottom: 20px;">
-        <h1>Find our game on your store here!</h1>
+        <h1 id="storeHeader">Find our game on your store here!</h1>
         <div class="row flex-nowrap justify-content-center">
             <div class="col col-lg-2 d-flex justify-content-center">
-                <a href="oculus.com"><img class="img-thumbnail my-1 img-fluid" src="img/logo-meta.png" alt="Meta Quest Logo"></a>
+                <a href="oculus.com"><img class="img-thumbnail my-1 img-fluid dropShadow" src="img/logo-meta.png" alt="Meta Quest Logo"></a>
             </div>
             <div class="col col-lg-2 d-flex justify-content-center">
-                <a href="https://store.steampowered.com/app/1215000/STRAYLIGHT/"><img class="img-thumbnail my-1 img-fluid" src="img/logo-steam.jpg" alt="Steam Logo"></a>
+                <a href="https://store.steampowered.com/app/1215000/STRAYLIGHT/"><img class="img-thumbnail my-1 img-fluid dropShadow" src="img/logo-steam.jpg" alt="Steam Logo"></a>
             </div>
             <div class="col col-lg-2 d-flex justify-content-center">
-                <a href="https://store.playstation.com/"><img class="img-thumbnail my-1 img-fluid" src="img/logo-sony.png" alt="PSVR Logo"></a>
+                <a href="https://store.playstation.com/"><img class="img-thumbnail my-1 img-fluid dropShadow" src="img/logo-sony.png" alt="PSVR Logo"></a>
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@
         </a>
       </div>
 
-      <footer>
+    <footer class="fixed-bottom">
         <div class="container-fluid">
             <div class="row">
                 <div class="col m-3">
@@ -121,10 +121,10 @@
                 </div>
             </div>
         </div>
-      </footer>
+    </footer>
 
-      <!-- PRIVACY MODAL -->
-      <div id="privacyModal" class="modal fade" role="dialogue">
+    <!-- PRIVACY MODAL -->
+    <div id="privacyModal" class="modal fade" role="dialogue">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header bg-dark text-white">
@@ -240,7 +240,7 @@
                 </div>
             </div>
         </div>
-      </div>
+    </div>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
