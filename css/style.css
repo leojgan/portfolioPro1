@@ -25,9 +25,14 @@
 }
 
 h1 {
+    font-family: 'Bungee', 'Courier New', Courier, monospace;
     color:azure;
     text-align: center;
     padding: 1rem;
+}
+
+.tenby-six {
+    font-family: 'Tenby-Six', 'Arial Narrow', Arial, sans-serif;
 }
 
 .carousel {
