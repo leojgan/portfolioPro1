@@ -11,8 +11,11 @@
     padding: 7rem 1rem;
 }
 
-#storeLinks {
+.hex-bg {
     background-image: linear-gradient(225deg, rgba(45, 54, 83, .7), rgba(51, 51, 77, .1)), url(/img/HexPattern.png);
+}
+
+#storelinks {
     max-height: 400px;
 }
 
