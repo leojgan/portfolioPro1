@@ -36,6 +36,11 @@ h1 {
     text-shadow: 3px 3px 4px black;
 }
 
+.bioName {
+    font-family: 'Bungee', 'Courier New', Courier, monospace;
+
+}
+
 .dropShadow {
     box-shadow: 4px 4px 8px black;
 }
@@ -59,4 +64,8 @@ footer {
     bottom: 0;
     position: sticky;
     width: 100%;
+}
+
+.bios p {
+    text-align: justify;
 }
