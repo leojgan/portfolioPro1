@@ -40,7 +40,9 @@ body {
 }
 
 #storeLinks {
-    max-height: 60rem;
+    .glow:hover {
+        box-shadow: 0 0 15px white;
+    }
 }
 
 h1 {

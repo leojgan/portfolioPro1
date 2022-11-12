@@ -26,8 +26,8 @@ body {
   background-color: none;
   background-image: linear-gradient(225deg, rgba(45, 54, 83, 0.7), rgba(51, 51, 77, 0.1)), url(/img/HexPattern.png); }
 
-#storeLinks {
-  max-height: 60rem; }
+#storeLinks .glow:hover {
+  box-shadow: 0 0 15px white; }
 
 h1 {
   font-family: 'Bungee', 'Courier New', Courier, monospace;
