@@ -25,6 +25,7 @@ body {
 
 #storelinks {
     max-height: 400px;
+    
     img{
         max-height: 200px;
         max-width: 100%;
@@ -39,9 +40,16 @@ h1 {
     text-shadow: 3px 3px 4px black;
 }
 
-.bioName {
+#bios {
+    span {
     font-family: 'Bungee', 'Courier New', Courier, monospace;
     color: darkmagenta;
+    }
+
+    p {
+        text-align: justify;
+        max-width: 60rem;
+    }
 }
 
 .dropShadow {
@@ -67,8 +75,4 @@ footer {
     bottom: 0;
     position: sticky;
     width: 100%;
-}
-
-.bios p {
-    text-align: justify;
 }
