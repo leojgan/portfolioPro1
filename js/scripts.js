@@ -6,8 +6,8 @@ function generateAlbum(pics) {
         }
         albumCode +=
         `<div class="col-4 col-lg-3 d-flex justify-content-center my-5">
-            <a href="img/screenshots/${i}.png" data-lightbox="screenshots">
-                <img class="img-thumbnail dropShadow" src="img/screenshots/t${i}.png" alt="thumbnail${i}">
+            <a href="img/${i}.png" data-lightbox="screenshots">
+                <img class="img-thumbnail dropShadow" src="img/t${i}.png" alt="thumbnail${i}">
             </a>
         </div> `
     }
