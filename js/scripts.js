@@ -11,5 +11,7 @@ function generateAlbum(pics) {
             </a>
         </div> `
     }
+    
     return albumCode;
 }
+
