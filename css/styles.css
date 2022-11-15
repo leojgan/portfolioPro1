@@ -33,12 +33,6 @@ footer {
 .grow:hover {
   transform: scale(1.1); }
 
-h1, h3, h4 {
-  font-family: 'Bungee', 'Courier New', Courier, monospace;
-  color: azure;
-  text-align: center;
-  text-shadow: 3px 3px 4px black; }
-
 #hero {
   background-image: url("/img/ghost-xxl.jpg");
   background-size: cover;
@@ -66,6 +60,12 @@ h1, h3, h4 {
     outline: 1px solid white; }
   nav img {
     max-width: 250px !important; } }
+
+.storeHeader {
+  font-family: 'Bungee', 'Courier New', Courier, monospace;
+  color: azure;
+  text-align: center;
+  text-shadow: 3px 3px 4px black; }
 
 #storeLinks .glow:hover {
   box-shadow: 0 0 15px white; }
