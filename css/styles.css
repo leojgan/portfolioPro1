@@ -34,7 +34,7 @@ footer {
   transform: scale(1.1); }
 
 #hero {
-  background-image: url("/img/ghost-xxl.jpg");
+  background-image: url("../img/ghost-xxl.jpg");
   background-size: cover;
   padding: 1rem; }
 
@@ -45,7 +45,7 @@ footer {
 
 .hex-bg {
   background-color: none;
-  background-image: linear-gradient(225deg, rgba(45, 54, 83, 0.7), rgba(51, 51, 77, 0.1)), url(/img/HexPattern.png); }
+  background-image: linear-gradient(225deg, rgba(45, 54, 83, 0.7), rgba(51, 51, 77, 0.1)), url("../img/HexPattern.png"); }
 
 .navbar {
   background-color: black; }
